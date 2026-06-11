@@ -1,0 +1,25 @@
+VERSÃO CINEMATOGRÁFICA
+
+1. Adicione:
+images/foto1.jpg
+images/foto2.jpg
+images/foto3.jpg
+images/foto4.jpg
+
+2. Adicione:
+music/beija-flor.mp3
+
+3. Abra index.html
+
+4. Edite os textos dos capítulos, Top 5 e carta final.
+
+5. Publique no GitHub Pages.
+
+Recursos:
+- Fundo estrelado animado
+- Efeito cinematográfico
+- Glassmorphism
+- Música de fundo
+- Contador automático
+- Animações de entrada
+- Carta final
