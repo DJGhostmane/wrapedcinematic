@@ -48,14 +48,23 @@ box-shadow:0 0 40px rgba(29,185,84,.45);
 }
 .cards{
 display:grid;
-gap:15px;
-max-width:800px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
 width:100%;
+max-width:1000px;
+margin-top:30px;
 }
-.cards div,.envelope{
-background:rgba(255,255,255,.08);
-backdrop-filter:blur(10px);
-padding:25px;
+
+.cards div{
+background:#1c1c1c;
+padding:20px;
 border-radius:20px;
+transition:all .3s ease;
+box-shadow:0 0 20px rgba(29,185,84,.15);
+}
+
+.cards div:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(29,185,84,.4);
 }
 #counter{color:#1DB954;font-size:2rem;margin-top:20px}
