@@ -40,4 +40,10 @@ if(s.y>c.height)s.y=0;
 });
 requestAnimationFrame(draw);
 }
+const revealBtn = document.getElementById("revealBtn");
+const letter = document.getElementById("letter");
+
+revealBtn.addEventListener("click", () => {
+    letter.classList.toggle("show");
+});
 draw();
